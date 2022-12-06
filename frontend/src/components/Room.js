@@ -154,7 +154,6 @@ export default class Room extends Component {
       songTitle: e.target.value,
     });
     this.searchSong()
-    console.log(this.state.searchResponse)
   }
 
   renderSearchPage(){
